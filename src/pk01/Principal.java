@@ -1,8 +1,9 @@
 package pk01;
-
 import java.util.Arrays;
-
+//Clase Principal  para simular una batalla entre dos criaturas.
+ // Se utilizan métodos polimórficos gracias a la herencia de Criatura.
 public class Principal {
+    // Simula una batalla entre dos criaturas hasta que una de ellas sea derrotada.
     public static void main(String[] args) {
         Arma espada = new Arma("Espada de Zeus", 8);
         Arma lanza = new Arma("Lanza Rúnica", 5);
