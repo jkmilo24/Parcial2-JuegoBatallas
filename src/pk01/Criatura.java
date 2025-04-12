@@ -1,4 +1,3 @@
-
 package pk01;
 
     public abstract class Criatura {
