@@ -1,7 +1,7 @@
 package pk01;
-
 import java.util.List;
-
+ //Clase Dragon que hereda de Criatura e implementa Volador.
+ //Utiliza composición con una lista de armas para aumentar su poder ofensivo.
 public class Dragon extends Criatura implements Volador {
     private String escamas;
     private List<Arma> armas;

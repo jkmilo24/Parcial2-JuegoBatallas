@@ -1,8 +1,7 @@
-
 package pk01;
-
 import java.util.List;
-
+ // Clase Guerrero que hereda de Criatura.
+ // Utiliza composición para incluir múltiples armas sin extender la clase Arma.
 public class Guerrero extends Criatura {
     private String armaNombre;
     private List<Arma> armas;

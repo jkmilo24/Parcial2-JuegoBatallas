@@ -1,12 +1,10 @@
-
 package pk01;
-
 import java.util.List;
-
+ // Clase Mago que hereda de Criatura e implementa Magico.
+ // Utiliza composición para incorporar armas mágicas que aumentan el daño.
 public class Mago extends Criatura implements Magico {
     private String hechizos;
     private List<Arma> armas;
-
     public Mago(String nombre, int salud, int fuerza, String hechizos, List<Arma> armas) {
         super(nombre, salud, fuerza);
         this.hechizos = hechizos;
